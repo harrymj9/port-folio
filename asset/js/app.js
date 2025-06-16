@@ -1,3 +1,17 @@
+
+
+  const menuBurger = document.getElementById("menu-burger");
+  const navLinks = document.querySelector(".navbar .links");
+
+  menuBurger.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+  });
+
+
+
+
+
+
 /* ========== ANIMATED TEXT  ==========
 */
   const words = ["WEB DESIGNER", "FRONT-END", "BACK-END", "MACHINE LEARNING"];
@@ -39,3 +53,5 @@ window.addEventListener('scroll', () => {
     backToTopBtn.classList.remove('show');
   }
 });
+
+

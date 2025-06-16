@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
 
     <link rel="stylesheet" href="./asset/css/app.css">
     <script src="./asset/js/script.js"></script>
-  
+
     <title>Portfolio</title>
 </head>
 
@@ -22,25 +24,18 @@
                     <a href="#">Portfolio.</a>
                 </div>
                 <ul class="links">
-                    <li><a href="#projets">Projet</a></li>
                     <li><a href="#a-propos">A propos</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Blog</a></li>
+                    <li><a href="#projets">Projet</a></li>
+            
                 </ul>
-                <div class="menu-burger">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
+              <div class="menu-burger" id="menu-burger">
+  <i class="fa-solid fa-bars"></i>
+</div>
+
+                 
             </div>
         </header>
-        <div class="social-baniere">
-            <a href=""><i class="fa-brands fa-twitter" style="color: rgb(2, 82, 254);"></i></a>
-            <a href="https://github.com/harrymj9" style="color: rgb(255, 252, 252);" target="_blank"><i
-                    class="fa-brands fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/johoanemonde/" style="color: rgb(0, 123, 176);"><i
-                    class="fa-brands fa-linkedin"></i></a>
-            <a href="  https://www.instagram.com/jojo_unk_/" style="color: rgb(197, 21, 21);"><i
-                    class="fa-brands fa-instagram"></i></a>
-        </div>
+   
         <div class="social-link">
             <div class="social-menu">
                 <h2>Bonjour, je suis</h2>
@@ -130,82 +125,96 @@
             </div>
         </section>
 
-<section id="projets" class="projects-container">
-    <h1>Mes Projets</h1>
-    <p>Quelques exemples de mes réalisations en développement web.</p>
-    <div class="project-card">
-        <img src="./asset/css/img/CLASSMATE.png" alt="Projet 1">
-        <h3>Classmate</h3>
-        <p>Développement de l'application avec React
-Une application dédiée aux étudiants, CLASSMATE (compagnon de
-classe), qui leur permettra de noter leurs plannings de cours et
-examens.</p>
-        <a href="https://classmate-snowy.vercel.app/" class="btn">Voir plus</a>
-    </div>
-    <div class="project-card">
-        <img src="./asset/css/img/CLASSMATE (1).png" alt="Projet 2">
-        <h3>Code-wallet</h3>
-        <p>Developper avec Electron et React, Code Wallet est une application pour stocker son code pour la base de donné j'ai utiliser firebase <br>
-            Pré-requis : Node.js  - Cloner le repo : git clone https://github.com/harrymj9/code-wallet - Lancer l’appli : npm install et  npm run dev </p>
-        <a href="https://drive.google.com/file/d/1-mOZo6fy9VcW7d84ctRLLGaT64KVWM_Q/view?usp=sharing" class="btn">Voir plus</a>
-    </div>
-    <div class="project-card">
-        <img src="./asset/img/projet1.jpg" alt="Projet 1">
-        <h3>Nom du projet</h3>
-        <p>Description brève du projet avec ses fonctionnalités et technologies utilisées.</p>
-        <a href="#" class="btn">Voir plus</a>
-    </div>
-    <div class="project-card">
-        <img src="./asset/img/projet1.jpg" alt="Projet 1">
-        <h3>Nom du projet</h3>
-        <p>Description brève du projet avec ses fonctionnalités et technologies utilisées.</p>
-        <a href="#" class="btn">Voir plus</a>
-    </div>
-    <div class="project-card">
-        <img src="./asset/img/projet1.jpg" alt="Projet 1">
-        <h3>Nom du projet</h3>
-        <p>Description brève du projet avec ses fonctionnalités et technologies utilisées.</p>
-        <a href="#" class="btn">Voir plus</a>
-    </div>
-    <div class="project-card">
-        <img src="./asset/img/projet1.jpg" alt="Projet 1">
-        <h3>Nom du projet</h3>
-        <p>Description brève du projet avec ses fonctionnalités et technologies utilisées.</p>
-        <a href="#" class="btn">Voir plus</a>
-    </div>
-   
-</section>
-
-
-
-
-
-
-        <section class="valeurs-cles">
-            <div class="valeurs">
-                <h2>Qualités humaines</h2>
-                <ul>
-                    <li>✔ Leadership et travail en équipe</li>
-                    <li>✔ Créativité et esprit de synthèse</li>
-                    <li>✔ Adaptabilité et rigueur</li>
-                </ul>
+        <section id="projets" class="projects-container">
+            <h1>Mes Projets</h1>
+            <p>Quelques exemples de mes réalisations en développement web.</p>
+            <div class="project-card">
+                <img src="./asset/css/img/CLASSMATE.png" alt="Projet 1">
+                <h3>Classmate</h3>
+                <p>Développement de l'application avec React
+                    Une application dédiée aux étudiants, CLASSMATE (compagnon de
+                    classe), qui leur permettra de noter leurs plannings de cours et
+                    examens.</p>
+                <a href="https://classmate-snowy.vercel.app/" class="btn">Voir plus</a>
             </div>
+            <div class="project-card">
+                <img src="./asset/css/img/CLASSMATE (1).png" alt="Projet 2">
+                <h3>Code-wallet</h3>
+                <p>Developper avec Electron et React, Code Wallet est une application pour stocker son code pour la base
+                    de donné j'ai utiliser firebase <br>
+                    Pré-requis : Node.js - Cloner le repo : git clone https://github.com/harrymj9/code-wallet - Lancer
+                    l’appli : npm install et npm run dev </p>
+                <a href="https://drive.google.com/file/d/1-mOZo6fy9VcW7d84ctRLLGaT64KVWM_Q/view?usp=sharing"
+                    class="btn">Voir plus</a>
+            </div>
+            <div class="project-card">
+                <img src="./asset/img/projet1.jpg" alt="Projet 1">
+                <h3>Nom du projet</h3>
+                <p>Description brève du projet avec ses fonctionnalités et technologies utilisées.</p>
+                <a href="#" class="btn">Voir plus</a>
+            </div>
+            <div class="project-card">
+                <img src="./asset/img/projet1.jpg" alt="Projet 1">
+                <h3>Nom du projet</h3>
+                <p>Description brève du projet avec ses fonctionnalités et technologies utilisées.</p>
+                <a href="#" class="btn">Voir plus</a>
+            </div>
+            <div class="project-card">
+                <img src="./asset/img/projet1.jpg" alt="Projet 1">
+                <h3>Nom du projet</h3>
+                <p>Description brève du projet avec ses fonctionnalités et technologies utilisées.</p>
+                <a href="#" class="btn">Voir plus</a>
+            </div>
+            <div class="project-card">
+                <img src="./asset/img/projet1.jpg" alt="Projet 1">
+                <h3>Nom du projet</h3>
+                <p>Description brève du projet avec ses fonctionnalités et technologies utilisées.</p>
+                <a href="#" class="btn">Voir plus</a>
+            </div>
+
         </section>
 
-
-
-
-
-       
+      
 
     </div>
     <a href="#" class="back-to-top" id="backToTop">
-  ↑
-</a>
-    <footer>
-        <p>© 2025 Johoane Monde. Tous droits réservés.</p>
-    </footer>   
-     <script src="./asset/js/app.js"></script>
+        ↑
+    </a>
+  <footer>
+  <div class="footer-content">
+
+    <div class="social-baniere">
+      <a href="#"><i class="fa-brands fa-twitter" style="color: rgb(2, 82, 254);"></i></a>
+      <a href="https://github.com/harrymj9" style="color: rgb(255, 252, 252);" target="_blank">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/johoanemonde/" style="color: rgb(0, 123, 176);">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a href="https://www.instagram.com/jojo_unk_/" style="color: rgb(197, 21, 21);">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+    </div>
+
+    <div class="contact-footer">
+      <div class="contact-item">
+        <i class="fa-solid fa-envelope"></i>
+        <a href="#">axelmonde7@gmail.com</a>
+      </div>
+      <div class="contact-item">
+        <i class="fa-solid fa-phone"></i>
+        <a href="tel:+33745495728">+33 7 45 49 57 28</a>
+      </div>
+    </div>
+
+    <p style="margin-top: 1.5rem;">© 2025 Johoane Monde. Tous droits réservés.</p>
+
+  </div>
+</footer>
+
+
+    <script src="./asset/js/app.js"></script>
+
 </body>
 
 </html>
