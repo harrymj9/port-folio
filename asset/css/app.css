@@ -333,6 +333,17 @@ figure img {
   h2 {
     display: none;
   }
+
+  .contact-footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-baniere {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
 }
 
 
@@ -414,15 +425,50 @@ footer {
   text-decoration: underline;
 }
 
-/* Responsive */
-@media (max-width: 600px) {
-  .contact-footer {
-    flex-direction: column;
-    align-items: center;
-  }
+/* CAPTURES SECTION 
+*/
 
-  .social-baniere {
-    flex-wrap: wrap;
-    gap: 1rem;
-  }
+.captures-section {
+  max-width: 1200px;
+  margin: 4rem auto;
+  padding: 0 1rem;
+  color: #fff;
+  text-align: center;
+}
+
+.captures-section h2 {
+  font-size: 2rem;
+  color: #00ffae;
+  margin-bottom: 2rem;
+}
+
+.captures-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.capture-card {
+  background: rgba(0, 255, 174, 0.1);
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 255, 174, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.capture-card:hover {
+  transform: scale(1.05);
+}
+
+.capture-card img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  height: 180px;
+}
+
+.capture-card p {
+  margin-top: 0.75rem;
+  font-weight: bold;
+  color: #00ffae;
 }
